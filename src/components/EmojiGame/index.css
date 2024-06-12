@@ -1,0 +1,21 @@
+.container {
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+}
+.app-container {
+  width: 90%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.game-container {
+  padding-top: 30px;
+}
+
+.emojis-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+}
